@@ -17,7 +17,7 @@ namespace ChallengeDom
         [BeforeScenario()]
         public void BeforeScenarioWithTag()
         {
-            _driverHelper.Driver = new ChromeDriver(@"C:\Users\Poojitha\source\repos\ChallengeDom\ChallengeDom\bin\Debug\net6.0");
+           _driverHelper.Driver = new ChromeDriver(@"C:\Users\Poojitha\source\repos\ChallengeDom\ChallengeDom\bin\Debug\net6.0");
            _driverHelper.Driver.Navigate().GoToUrl("http://the-internet.herokuapp.com/challenging_dom");
             
         }
